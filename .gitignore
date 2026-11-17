@@ -1,0 +1,56 @@
+# .NET / Visual Studio / VS Code
+**/bin/
+**/obj/
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+**/secrets.json
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/appsettings.*.local.json
+**/appsettings.Production.json
+**/appsettings.Staging.json
+**/appsettings.Test.json
+**/appsettings.*.Development.local.json
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Local databases and SQLite sidecar files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite3-shm
+*.sqlite3-wal
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Python artifacts (legacy Flask project)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
